@@ -19,7 +19,7 @@ public class BakaMod extends DummyModContainer {
     public void Inittheshit(){
         instance = this;
         if(PervDetector.DetectPervs("test")){
-            System.out.println("test");
+            System.out.println("Exists");
         }
     }
 }
